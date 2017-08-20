@@ -1,0 +1,82 @@
+[0.00000] [Notice] Language Български will be ignored
+[0.00042] [Notice] Language Slovenščina will be ignored
+[0.00320] [Notice] Could not connect to database
+[0.05520] [Warning] The ZIP Archive extension is not installed on the server. ZIP archive handling will be restricted.
+[0.00000] [Notice] Language Български will be ignored
+[0.00047] [Notice] Language Slovenščina will be ignored
+[0.00389] [Warning] The specified database is not empty. Overwrite?Yes 
+[0.05950] [Warning] The ZIP Archive extension is not installed on the server. ZIP archive handling will be restricted.
+[0.06361] [Notice] Creating database scheme
+[0.65747] [Notice] Importing data
+[0.99242] [Notice] Creating demo
+[1.51767] [Notice] Installing additional language en
+[1.75460] [Notice] Installing additional language en
+[2.52734] [Notice] Installing additional language da
+[2.76000] [Notice] Installing additional language da
+[3.60588] [Notice] Installing additional language de
+[3.84181] [Notice] Installing additional language de
+[4.69466] [Notice] Installing additional language es
+[4.93484] [Notice] Installing additional language es
+[5.80416] [Notice] Installing additional language fr
+[6.03967] [Notice] Installing additional language fr
+[6.90523] [Notice] Installing additional language el
+[7.15158] [Notice] Installing additional language el
+[8.03123] [Notice] Installing additional language it
+[8.27311] [Notice] Installing additional language it
+[9.16057] [Notice] Installing additional language nl
+[9.39413] [Notice] Installing additional language nl
+[10.27623] [Notice] Installing additional language ro
+[10.51824] [Notice] Installing additional language ro
+[11.38903] [Notice] Installing additional language ru
+[11.62901] [Notice] Installing additional language ru
+[12.52100] [Missing language pack] Unable to find: /var/www/html/install/database/lang/bg/bg.po (skipped)
+[12.52433] [Notice] Installing additional language no
+[12.76243] [Notice] Installing additional language no
+[13.67431] [Missing language pack] Unable to find: /var/www/html/install/database/lang/sl/sl.po (skipped)
+[0.00000] [Warning] The URL rewrite engine is disabled. Subpath-based storefront URLs will not work
+[0.00009] [Warning] The ZIP Archive extension is not installed on the server. ZIP archive handling will be restricted.
+[0.00000] [Warning] The URL rewrite engine is disabled. Subpath-based storefront URLs will not work
+[0.00345] [Warning] The specified database is not empty. Overwrite?Yes 
+[0.06365] [Warning] The ZIP Archive extension is not installed on the server. ZIP archive handling will be restricted.
+[0.00000] [Warning] The URL rewrite engine is disabled. Subpath-based storefront URLs will not work
+[0.00085] [Warning] The specified database is not empty. Overwrite?Yes 
+[0.06124] [Warning] The ZIP Archive extension is not installed on the server. ZIP archive handling will be restricted.
+[0.06503] [Notice] Creating database scheme
+[0.73390] [Notice] Importing data
+[1.04900] [Notice] Creating demo
+[1.61776] [Notice] Installing additional language en
+[1.87955] [Notice] Installing additional language en
+[0.00000] [Warning] The URL rewrite engine is disabled. Subpath-based storefront URLs will not work
+[0.00009] [Warning] The ZIP Archive extension is not installed on the server. ZIP archive handling will be restricted.
+[0.00000] [Warning] The URL rewrite engine is disabled. Subpath-based storefront URLs will not work
+[0.00081] [Notice] Could not connect to database
+[0.00085] [Error] MySQL settings are not valid
+[0.06224] [Warning] The ZIP Archive extension is not installed on the server. ZIP archive handling will be restricted.
+[0.00000] [Warning] The URL rewrite engine is disabled. Subpath-based storefront URLs will not work
+[0.00087] [Notice] Could not connect to database
+[0.00092] [Error] MySQL settings are not valid
+[0.06199] [Warning] The ZIP Archive extension is not installed on the server. ZIP archive handling will be restricted.
+[0.00000] [Warning] The URL rewrite engine is disabled. Subpath-based storefront URLs will not work
+[0.00154] [Warning] The specified database is not empty. Overwrite?Yes 
+[0.06168] [Warning] The ZIP Archive extension is not installed on the server. ZIP archive handling will be restricted.
+[0.00000] [Warning] The URL rewrite engine is disabled. Subpath-based storefront URLs will not work
+[0.00078] [Warning] The specified database is not empty. Overwrite?Yes 
+[0.06134] [Warning] The ZIP Archive extension is not installed on the server. ZIP archive handling will be restricted.
+[0.06480] [Notice] Creating database scheme
+[0.66299] [Notice] Importing data
+[0.98671] [Notice] Creating demo
+[1.53022] [Notice] Installing additional language en
+[1.78945] [Notice] Installing additional language en
+[0.00000] [Warning] The URL rewrite engine is disabled. Subpath-based storefront URLs will not work
+[0.00008] [Warning] The ZIP Archive extension is not installed on the server. ZIP archive handling will be restricted.
+[0.00000] [Warning] The URL rewrite engine is disabled. Subpath-based storefront URLs will not work
+[0.00154] [Warning] The specified database is not empty. Overwrite?Yes 
+[0.06321] [Warning] The ZIP Archive extension is not installed on the server. ZIP archive handling will be restricted.
+[0.00000] [Warning] The URL rewrite engine is disabled. Subpath-based storefront URLs will not work
+[0.00395] [Warning] The specified database is not empty. Overwrite?Yes 
+[0.06936] [Warning] The ZIP Archive extension is not installed on the server. ZIP archive handling will be restricted.
+[0.07353] [Notice] Creating database scheme
+[0.62253] [Notice] Importing data
+[0.94853] [Notice] Creating demo
+[1.51178] [Notice] Installing additional language en
+[1.77397] [Notice] Installing additional language en
