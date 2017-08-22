@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+
+<addon scheme='2.0'>
+    <id>address_book</id>
+    <version>1.0</version>
+    <name>Address Book</name>
+    <description>This addon allows Admins to set Delivery &amp; Billing addresses which customers can then use to direct their orders to.</description>
+    <priority>100500</priority>
+    <status>active</status>
+    <queries>
+      <item for="install">DROP TABLE IF EXISTS ?:address_book_data;</item>
+      <item for="install">
+        CREATE TABLE `?:address_book_data` (
+          `address_book_id` int(11) unsigned NOT NULL DEFAULT 0,
+          `name` varchar(128) NOT NULL DEFAULT '',
+          `line_1` varchar(128) NOT NULL DEFAULT '',
+          `line_2` varchar(128) NULL DEFAULT '',
+          `city` varchar (128) NOT NULL DEFAULT '',
+          `county` varchar (128) NOT NULL DEFAULT '',
+          `country` varchar (128) NOT NULL DEFAULT '',
+          `postcode` varchar (10) NOT NULL DEFAULT '',
+          `status` enum('active','disabled') NOT NULL DEFAULT 'active'
+          PRIMARY KEY (`address_book_id`)
+        ) Engine=MyISAM DEFAULT CHARSET UTF8;
+      </item>
+      <item for="install">
+        ALTER TABLE `?:orders` ADD `address_book_id` int(11) unsigned NOT NULL DEFAULT 0;
+      </item>
+      <item for="uninstall">
+        DROP TABLE IF EXISTS ?address_book_data;
+      </item>
+      <item for="uninstall">
+        ALTER TABLE `?:orders` DROP COLUMN `address_book_id`;
+      </item>
+    </queries>
+</addon>
