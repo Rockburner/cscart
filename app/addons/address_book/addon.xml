@@ -19,7 +19,7 @@
           `county` varchar (128) NOT NULL DEFAULT '',
           `country` varchar (128) NOT NULL DEFAULT '',
           `postcode` varchar (10) NOT NULL DEFAULT '',
-          `status` enum('active','disabled') NOT NULL DEFAULT 'active'
+          `status` enum('active','disabled') NOT NULL DEFAULT 'active',
           PRIMARY KEY (`address_book_id`)
         ) Engine=MyISAM DEFAULT CHARSET UTF8;
       </item>
@@ -27,10 +27,10 @@
         ALTER TABLE `?:orders` ADD `address_book_id` int(11) unsigned NOT NULL DEFAULT 0;
       </item>
       <item for="uninstall">
-        DROP TABLE IF EXISTS ?address_book_data;
+        ALTER TABLE `?:orders` DROP COLUMN `address_book_id`;
       </item>
       <item for="uninstall">
-        ALTER TABLE `?:orders` DROP COLUMN `address_book_id`;
+        DROP TABLE IF EXISTS ?:address_book_data;
       </item>
     </queries>
 </addon>
