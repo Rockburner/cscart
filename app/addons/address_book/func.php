@@ -11,7 +11,7 @@ function fn_address_book_get_checkout_payment_buttons_pre($cart,$cart_products,$
 
   // check use is in customer area
   
-  if(!empty($auth['user_id'] && AREA == 'C') {
+  if(!empty($auth['user_id']) && AREA == 'C') {
 
     // get the addresses
     $addresses = db_get_array('SELECT * from?:address_book_data WHERE status = $s','active');

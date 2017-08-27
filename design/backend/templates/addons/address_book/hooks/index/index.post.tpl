@@ -17,7 +17,7 @@
           </address>
           <p>{$address.status}</p>
           </li>
-        {/foreach>
+        {/foreach}
       </ul>
     {else}
       <p>No addresses in system yet</p>
