@@ -17,5 +17,7 @@ if(!empty($addresses)) {
 // 
 // similarly it should be possible to some pick up an edit request for an existing address from a 'get'request maybe and then pull that address record from the db table and assign to a different variable via the Registry::get('view')->assign and then have the address form pre-populated maybe. Not sure if CS-Cart would usually handle that via javascript or not.
 // 
+// Similarly there would be a method for deleting an address, although it may well be worth not enabling this (or having an option in the add-on settings for allowing address deletion), so that the address that an old order was sent to can't be deleted and can therefore be referred to later.
+// 
 // 
 ?>
